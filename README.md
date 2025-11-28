@@ -106,15 +106,19 @@ Botones de flujo de compilación
 ## ejemplo de la sintaxis del lenguaje 
 
 nombre Texto;
+
 edad Entero;
 
 nombre = Captura.Texto();
+
 edad = Captura.Entero();
 
 Mensaje.Texto("Bienvenido llave, tu nombre es:");
+
 Mensaje.Texto(nombre);
 
 Mensaje.Texto("Y tu edad es:");
+
 Mensaje.Texto(edad);
 
 

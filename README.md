@@ -6,7 +6,7 @@ El compilador incluye análisis léxico, sintáctico, semántico, generación de
 
 ---
 
-## 🚀 Características principales
+## Características principales
 
 - ✔ Analizador léxico construido con **PLY**
 - ✔ Analizador sintáctico basado en una gramática completa
@@ -20,4 +20,101 @@ El compilador incluye análisis léxico, sintáctico, semántico, generación de
 - ✔ Mensajes de error “costeños” para un toque divertido
 
 ---
+
+## Estructura del proyecto
+│── analizador_lexico.py
+│── analizador_sintactico.py
+│── analizador_semantico.py
+│── interprete.py
+│── interfaz_compilador.py
+
+---
+
+## Instalación
+
+1. Clona el repositorio:
+
+git clone https://github.com/tu-usuario/compilador-costeñol
+cd compilador-costeñol
+
+2. crea un entorno virtual:
+   
+   python -m venv (nombre del entorno)
+
+4. Instala las dependencias necesarias:
+   
+   pip install -r requirements.txt
+   
+5. ejecuta la interfaz virtual:
+
+   python interfaz_compilador.py
+   
+---
+## Componentes del compilador
+
+✔Analizador Léxico (analizador_lexico.py)
+
+Define los tokens y detecta errores léxicos con mensajes como:
+“Nojoda llave, esa vaina está mala…”
+
+✔Analizador Sintáctico (analizador_sintactico.py)
+
+Construye el AST
+
+Verifica la estructura según la gramática
+
+Detecta errores sintácticos
+
+✔Analizador Semántico (analizador_semantico.py)
+
+Valida:
+
+Declaraciones duplicadas
+
+Variables no declaradas
+
+Tipos incompatibles
+
+Operaciones inválidas
+
+✔Intérprete (interprete.py)
+
+Recorre el AST ejecutando cada instrucción
+
+Evalúa expresiones matemáticas
+
+Maneja entrada mediante Captura
+
+Envía mensajes a la consola o GUI
+
+✔Interfaz gráfica (interfaz_compilador.py)
+
+Incluye:
+
+Editor con resaltado de sintaxis
+
+Subrayado automático de errores
+
+Consola integrada
+
+Entrada de usuario
+
+Botones de flujo de compilación
+
+---
+
+## ejemplo de la sintaxis del lenguaje 
+
+nombre Texto;
+edad Entero;
+
+nombre = Captura.Texto();
+edad = Captura.Entero();
+
+Mensaje.Texto("Bienvenido llave, tu nombre es:");
+Mensaje.Texto(nombre);
+
+Mensaje.Texto("Y tu edad es:");
+Mensaje.Texto(edad);
+
 

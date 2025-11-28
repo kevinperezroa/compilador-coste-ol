@@ -1,7 +1,7 @@
-# 🧉 Compilador Costeñol – Lenguaje PQEK  
+# Compilador Costeñol   
 ### *Un compilador educativo hecho con Python, PLY y PyQt5*
 
-Este proyecto implementa un compilador completo para el lenguaje **PQEK (Programación Que Es Ke?)**, un lenguaje ficticio inspirado en expresiones costeñas de la costa colombiana.  
+Este proyecto implementa un compilador completo , que implementa los errores en expresiones costeñas de la costa colombiana.  
 El compilador incluye análisis léxico, sintáctico, semántico, generación de AST, un intérprete funcional y una interfaz gráfica moderna.
 
 ---

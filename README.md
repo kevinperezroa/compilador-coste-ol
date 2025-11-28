@@ -34,8 +34,8 @@ El compilador incluye análisis léxico, sintáctico, semántico, generación de
 
 1. Clona el repositorio:
 
-git clone https://github.com/tu-usuario/compilador-costeñol
-cd compilador-costeñol
+git clone https://github.com/kevinperezroa/compilador-coste-ol
+cd compilador-coste-ol
 
 2. crea un entorno virtual:
    
